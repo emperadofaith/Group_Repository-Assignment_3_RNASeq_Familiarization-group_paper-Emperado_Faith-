@@ -1,1 +1,0 @@
-# Richelle Gregorio
