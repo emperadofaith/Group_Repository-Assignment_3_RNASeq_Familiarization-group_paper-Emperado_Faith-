@@ -1,6 +1,6 @@
 # Shane Mae B. Ijan (RNA-Seq Dataset Documentation)
 
-**Group:** 3
+**Group:** 3 - Infection
 
 ## Group Paper
 
