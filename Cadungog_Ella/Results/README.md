@@ -51,40 +51,23 @@ The FastQC analysis showed that the sequencing data were generally of good quali
 
 The following screenshots document the RNA-seq dataset and FastQC analysis:
 
-![Uploading image.png…]()
 
+**Figure 1.** Galaxy preview of the SRR7029708 RNA-seq sequencing data
 
-**Figure 1.** Preview of the assigned RNA-seq dataset SRR7029706 in Galaxy.
+The first figure presents the SRR7029708 RNA-seq dataset after it was uploaded to Galaxy. The file is stored as a compressed FASTQ file (fastqsanger.gz) with a size of about 907 MB. The preview contains the basic FASTQ format, including the read name, nucleotide sequence, plus sign, and quality-score information. These components show that the file contains both the RNA sequencing reads and their base-quality data, which are needed for checking the quality of the biological sample.
 
-The figure shows the imported RNA-seq dataset SRR7029706, which represents the infected tissue biopsy sample assigned for analysis. The dataset is in compressed FASTQ format (fastqsanger.gz) and has a size of 729.6 MB in Galaxy. The preview also shows the four-line FASTQ structure, which includes the sequence identifier, nucleotide sequence, separator (+), and quality-score characters. This confirms that the dataset contains both the sequencing reads and their corresponding quality information.
+**Figure 2.** Summary of the FastQC quality statistics for SRR7029708
 
+The second figure summarizes the main features of the sequencing data. A total of 23,967,050 reads were generated, and each read is 51 bp long. The data contain approximately 1.2 Gbp of sequence bases, with an overall GC content of 49%. No sequences were identified as poor quality. The consistent read length and large number of reads indicate that the dataset provides sufficient sequencing information for studying RNA transcripts and gene expression.
 
+**Figure 3.** Base-by-base quality assessment of the SRR7029708 sequencing reads
 
+The third figure displays the quality of each nucleotide position within the sequencing reads. Most positions have Phred scores between 38 and 40, showing that the bases were identified with high accuracy. A small decrease in quality can be seen at the beginning of the reads, but the scores remain within the high-quality range. The result indicates that the sequencing reads have reliable base-call quality, which is important for accurate downstream RNA-seq analysis.
 
-<img width="562" height="376" alt="Screenshot 2026-08-25 123000" src="https://github.com/user-attachments/assets/eb8f20d2-3544-4979-bd86-3a6aa8792a38" />
+**Figure 4.** Detection of adapter sequences in the SRR7029708 RNA-seq reads
 
-**Figure 2.** FastQC basic statistics of the RNA-seq dataset SRR7029706.
+The fourth figure presents the amount of adapter sequence detected in the reads. The adapter level stays very low and remains close to 0% throughout the read positions. This means that the sequencing data contain little to no unwanted adapter sequence. The adapter contamination is unlikely to affect the identification and analysis of RNA transcripts.
 
-The FastQC basic statistics show that SRR7029706 contains 20,081,963 sequences, with each read having a length of 51 bp. The dataset has a GC content of 55% and approximately 1 Gbp of total bases. No sequences were flagged as poor quality. All in all, the basic statistics indicate that the dataset contains a large number of sequencing reads with consistent read length and no reads classified as poor quality by FastQC.
+**Conclusion**
 
-
-
-
-<img width="977" height="718" alt="per base sequence quality" src="https://github.com/user-attachments/assets/0de94718-9fc9-4b3d-aaf8-e272cd309792" />
-
-**Figure 3.** Per-base sequence quality of the RNA-seq dataset SRR7029706.
-
-The FastQC result shows that the RNA-seq reads had high per-base sequence quality. The quality scores remained in the green region across all 51 base positions, with most scores above Q30. The first few bases had slightly lower quality scores of around Q34, but these were still considered high quality. In general, the result received a PASS, indicating that the bases in the sequencing reads were generally reliable for further RNA-seq analysis.
-
-
-
-
-<img width="997" height="720" alt="adapter content" src="https://github.com/user-attachments/assets/3339c42b-c78f-4b93-bb8c-4d2bc452db10" />
-
-**Figure 3.** Adapter content analysis of the RNA-seq dataset SRR7029706.
-
-The FastQC adapter content analysis received a PASS, with adapter levels remaining close to 0% across the reads. This indicates that no significant adapter contamination was detected in the dataset. Overall, the result suggests that adapter sequences are unlikely to interfere with further RNA-seq analysis.
-
-## Conclusion
-
-The RNA-seq dataset SRR7029706 showed generally good sequencing quality based on the FastQC analysis. Most bases had high quality scores, and no significant adapter contamination was detected. However, some warnings and failures were observed in sequence content, GC content, sequence duplication, and overrepresented sequences. Overall, the dataset is suitable for further RNA-seq analysis, although these quality issues should be considered when interpreting the results.
+The FastQC results indicate that SRR7029708 is generally a high-quality RNA-seq dataset. It contains a large number of uniform 51-bp reads, with high nucleotide quality and a GC content of 49%. The absence of significant adapter contamination also supports the reliability of the sequencing data. Although other FastQC results may show some warnings related to RNA-seq sequence composition or read duplication, the main quality results indicate that the dataset is appropriate for downstream transcriptomic and gene expression analysis.
