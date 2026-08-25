@@ -26,7 +26,7 @@ The preview shows the structure of a sequencing read from the SRR7029706 dataset
 
 ## Figure 3. FastQC Raw Data
 
-![FastQC Raw Data](Figure3_FastQC_RawData.png)
+![FastQC Raw Data](Figure3_FASTQC_RawData.png)
 
 **Figure 3.** FastQC RawData results for the SRR7029706 RNA-seq dataset.
 
@@ -36,7 +36,7 @@ The FastQC RawData provides the numerical quality information for the SRR7029706
 
 ## Figure 4. FastQC Summary
 
-![FastQC Summary](Figure4_FastQC_Summary.png)
+![FastQC Summary](Figure4_FASTQC_Summary.png)
 
 **Figure 4.** FastQC summary of the quality assessment for the SRR7029706 RNA-seq dataset.
 
@@ -46,7 +46,7 @@ The FastQC summary shows that most quality checks passed, including basic statis
 
 ## Figure 5. FastQC Basic Statistics
 
-![FastQC Basic Statistics](Figure5_FastQC_Basic_Statistics.png)
+![FastQC Basic Statistics](Figure5_FASTQ_Basic_Statistics.png)
 
 **Figure 5.** FastQC basic statistics for the SRR7029706 RNA-seq dataset.
 
