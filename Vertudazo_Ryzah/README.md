@@ -1,6 +1,6 @@
 
 
-## Student Information
+## 
 Name:Vertudazo, Maria Ryzah May I. 
 Group 3
 
