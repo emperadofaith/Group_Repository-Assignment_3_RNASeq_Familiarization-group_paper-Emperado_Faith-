@@ -6,7 +6,7 @@
 
 **Assigned RNA-seq accession number:** SRR7029705
 
-**condition:** Infected tissue biopsy
+**Condition:** Infected tissue biopsy
 
 **Short explanation of what the sample represents biologically.???**
 
