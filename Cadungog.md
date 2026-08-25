@@ -1,4 +1,4 @@
-## Assignment_3_RNASeq_Familiarization-group_paper-CADUNGOG_Group3
+## Assignment_3_RNASeq_CADUNGOG_Group3
 
  **Title:** Salmonella Typhi Colonization Provokes Extensive Transcriptional Changes Aimed at Evading Host Mucosal Immune Defense During Early Infection of Human Intestinal Tissue
 
