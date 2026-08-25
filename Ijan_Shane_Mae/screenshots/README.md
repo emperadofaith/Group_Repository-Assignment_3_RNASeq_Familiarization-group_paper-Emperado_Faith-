@@ -96,7 +96,7 @@ The observed GC distribution differs from the theoretical distribution, resultin
 
 ## Figure 10. Sequence Duplication Levels
 
-![Sequence Duplication Levels](Figure10_Sequence_Duplication_Levels.png)
+![Sequence Duplication Levels](Figure10_Sequence_Duplication_Level.png)
 
 **Figure 10.** FastQC sequence duplication levels of the SRR7029706 RNA-seq dataset.
 
