@@ -36,10 +36,10 @@ The sample consisted of human intestinal tissue infected with *Salmonella typhi*
 | Per Tile Sequence Quality | PASS |
 | Per Sequence Quality Scores | PASS |
 | Per Base Sequence Content | WARNING |
-| Per Sequence GC Content | FAIL |
+| Per Sequence GC Content | WARNING |
 | Per Base N Content | PASS |
 | Sequence Length Distribution | PASS |
-| Sequence Duplication Levels | FAIL |
+| Sequence Duplication Levels | WARNING |
 | Overrepresented Sequences | WARNING |
 | Adapter Content | PASS; No significant adapter contamination detected. |
 
