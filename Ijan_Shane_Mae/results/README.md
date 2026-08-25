@@ -25,7 +25,7 @@ Nickerson KP, Senger S, Zhang Y, Lima R, Patel S, Ingano L, Flavahan WA, Kumar D
 
 ### Biological Representation of the Sample
 
-The sample represents a human intestinal tissue biopsy infected with *Salmonella Typhi*. It was used to examine the changes in gene expression that occur in the intestinal tissue during the early stage of *S. Typhi* infection.
+The sample represents a human intestinal tissue biopsy infected with Salmonella Typhi. It reflects the early response of intestinal tissue to bacterial infection and was used to examine changes in host gene expression. The sample helps show how S. Typhi affects cellular and immune-related processes during the early stage of infection.
 
 ## FastQC Results
 
@@ -64,7 +64,7 @@ The figure shows the imported RNA-seq dataset SRR7029706, which represents the i
 
 **Figure 2.** FastQC basic statistics of the RNA-seq dataset SRR7029706.
 
-The FastQC basic statistics show that SRR7029706 contains 20,081,963 sequences, with each read having a length of 51 bp. The dataset has a GC content of 55% and approximately 1 Gbp of total bases. No sequences were flagged as poor quality. All in all, the basic statistics indicate that the dataset contains a large number of sequencing reads with consistent read length and no reads classified as poor quality by FastQC.
+FastQC basic statistics show that SRR7029706 contains 20,081,963 sequences, with each read having a length of 51 bp. The dataset has a GC content of 55% and approximately 1 Gbp of total bases. No sequences were flagged as poor quality. All in all, the basic statistics indicate that the dataset contains a large number of sequencing reads with consistent read length and no reads classified as poor quality by FastQC.
 
 
 
@@ -73,14 +73,14 @@ The FastQC basic statistics show that SRR7029706 contains 20,081,963 sequences, 
 
 **Figure 3.** Per-base sequence quality of the RNA-seq dataset SRR7029706.
 
-The FastQC result shows that the RNA-seq reads had high per-base sequence quality. The quality scores remained in the green region across all 51 base positions, with most scores above Q30. The first few bases had slightly lower quality scores of around Q34, but these were still considered high quality. In general, the result received a PASS, indicating that the bases in the sequencing reads were generally reliable for further RNA-seq analysis.
+The result shows that the RNA-seq reads had high per-base sequence quality. The quality scores remained in the green region across all 51 base positions, with most scores above Q30. The first few bases had slightly lower quality scores of around Q34, but these were still considered high quality. In general, the result received a PASS, indicating that the bases in the sequencing reads were generally reliable for further RNA-seq analysis.
 
 
 
 
 <img width="997" height="720" alt="adapter content" src="https://github.com/user-attachments/assets/3339c42b-c78f-4b93-bb8c-4d2bc452db10" />
 
-**Figure 3.** Adapter content analysis of the RNA-seq dataset SRR7029706.
+**Figure 4.** Adapter content analysis of the RNA-seq dataset SRR7029706.
 
 The FastQC adapter content analysis received a PASS, with adapter levels remaining close to 0% across the reads. This indicates that no significant adapter contamination was detected in the dataset. Overall, the result suggests that adapter sequences are unlikely to interfere with further RNA-seq analysis.
 
