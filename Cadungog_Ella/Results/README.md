@@ -45,7 +45,7 @@ The sample consisted of human intestinal tissue infected with *Salmonella typhi*
 
 ### FastQC Summary
 
-The FastQC results showed that the RNA-seq dataset had generally good sequence quality. Basic statistics, per-base sequence quality, per-tile sequence quality, per-sequence quality scores, per-base N content, sequence length distribution, and adapter content all passed the quality check. However, per-base sequence content and overrepresented sequences showed warnings, indicating some differences in base composition and the presence of sequences that occurred more often than expected. Per-sequence GC content and sequence duplication levels failed the quality check, showing an unusual GC distribution and a high level of duplicated sequences. The reads were of good quality, but the warnings and failed results should be considered in further RNA-seq analysis.
+The FastQC analysis showed that the sequencing data were generally of good quality. Most bases had Phred scores of around 38–40, indicating high base-calling accuracy and a low probability of sequencing errors. The results also showed good sequence quality across tiles and reads, with no significant undetermined bases or adapter contamination. However, warnings were observed for per-base sequence content, GC content, sequence duplication, and overrepresented sequences. These results may indicate variation in nucleotide composition and the presence of highly abundant or repeated sequences, which can occur in biological samples due to highly expressed genes or PCR amplification. The sequencing reads were suitable for further RNA-seq analysis, although the warning results should be considered during downstream analysis.
 
 ## Screenshots
 
