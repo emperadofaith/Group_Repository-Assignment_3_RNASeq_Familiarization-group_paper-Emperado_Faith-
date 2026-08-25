@@ -51,7 +51,8 @@ The FastQC analysis showed that the sequencing data were generally of good quali
 
 The following screenshots document the RNA-seq dataset and FastQC analysis:
 
-<img width="1860" height="701" alt="Screenshot 2026-08-25 122557" src="https://github.com/user-attachments/assets/1844fb6a-e477-462a-a41b-066e4b5979b4" />
+![Uploading image.png…]()
+
 
 **Figure 1.** Preview of the assigned RNA-seq dataset SRR7029706 in Galaxy.
 
