@@ -11,11 +11,15 @@
 **Biological Representation:** The sample SRR7029703 represents an uninfected human intestinal tissue biopsy, serving as the control condition. It provides baseline gene expression data that can be compared with Salmonella Typhi-infected tissues to identify transcriptional changes caused by early infection.
 
 **Data type:** Single-end
+
 **Number of Reads:** 22,642,554 bp
+
 **Read length:** 51 bp
+
 **GC content:** 50% 
 
 **Galaxy History**
+
 <img width="280" height="527" alt="image" src="https://github.com/user-attachments/assets/93fe3154-892e-4268-8667-571e91203a43" />
 
 *Figure 1.* Galaxy history showing the imported RNA-seq dataset used to analyze the sequence.
