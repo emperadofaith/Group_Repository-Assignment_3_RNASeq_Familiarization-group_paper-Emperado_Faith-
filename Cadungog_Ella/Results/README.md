@@ -52,17 +52,28 @@ The FastQC analysis showed that the sequencing data were generally of good quali
 The following screenshots document the RNA-seq dataset and FastQC analysis:
 
 
+<img width="1760" height="1026" alt="image" src="https://github.com/user-attachments/assets/d859e2d9-cd41-4259-ae83-99fe63fb82bb" />
+
 **Figure 1.** Galaxy preview of the SRR7029708 RNA-seq sequencing data
 
 The first figure presents the SRR7029708 RNA-seq dataset after it was uploaded to Galaxy. The file is stored as a compressed FASTQ file (fastqsanger.gz) with a size of about 907 MB. The preview contains the basic FASTQ format, including the read name, nucleotide sequence, plus sign, and quality-score information. These components show that the file contains both the RNA sequencing reads and their base-quality data, which are needed for checking the quality of the biological sample.
+
+
+<img width="887" height="537" alt="image" src="https://github.com/user-attachments/assets/890bde36-1d3f-4d2b-866a-cfa0710fc59f" />
 
 **Figure 2.** Summary of the FastQC quality statistics for SRR7029708
 
 The second figure summarizes the main features of the sequencing data. A total of 23,967,050 reads were generated, and each read is 51 bp long. The data contain approximately 1.2 Gbp of sequence bases, with an overall GC content of 49%. No sequences were identified as poor quality. The consistent read length and large number of reads indicate that the dataset provides sufficient sequencing information for studying RNA transcripts and gene expression.
 
+
+<img width="1017" height="712" alt="image" src="https://github.com/user-attachments/assets/cb169295-c7a2-4b0d-b96d-e65efdeca2bc" />
+
 **Figure 3.** Base-by-base quality assessment of the SRR7029708 sequencing reads
 
 The third figure displays the quality of each nucleotide position within the sequencing reads. Most positions have Phred scores between 38 and 40, showing that the bases were identified with high accuracy. A small decrease in quality can be seen at the beginning of the reads, but the scores remain within the high-quality range. The result indicates that the sequencing reads have reliable base-call quality, which is important for accurate downstream RNA-seq analysis.
+
+
+<img width="1011" height="715" alt="image" src="https://github.com/user-attachments/assets/10c7e908-8ec6-4976-8808-89b45933278b" />
 
 **Figure 4.** Detection of adapter sequences in the SRR7029708 RNA-seq reads
 
