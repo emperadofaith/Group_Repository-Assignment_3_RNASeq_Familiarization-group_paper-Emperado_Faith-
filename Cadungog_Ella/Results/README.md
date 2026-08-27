@@ -58,7 +58,6 @@ The following screenshots document the RNA-seq dataset and FastQC analysis:
 
 The first figure presents the SRR7029708 RNA-seq dataset after it was uploaded to Galaxy. The file is stored as a compressed FASTQ file (fastqsanger.gz) with a size of about 907 MB. The preview contains the basic FASTQ format, including the read name, nucleotide sequence, plus sign, and quality-score information. These components show that the file contains both the RNA sequencing reads and their base-quality data, which are needed for checking the quality of the biological sample.
 
-
 <img width="887" height="537" alt="image" src="https://github.com/user-attachments/assets/890bde36-1d3f-4d2b-866a-cfa0710fc59f" />
 
 **Figure 2.** Summary of the FastQC quality statistics for SRR7029708.
