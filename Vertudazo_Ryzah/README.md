@@ -4,8 +4,8 @@
 Name:Vertudazo, Maria Ryzah May I. 
 Group 3
 
-## Group paper 
-Title: Salmonella Typhi Colonization Provokes Extensive Transcriptional Changes Aimed at Evading Host Mucosal Immune Defense During Early Infection of Human Intestinal Tissue
+##  Title: Salmonella Typhi Colonization Provokes Extensive Transcriptional Changes Aimed at Evading Host Mucosal Immune Defense During Early Infection of Human Intestinal Tissue
+
 ## Author: K. P. Nickerson, S. Senger, Y. Zhang, R. Lima, S. Patel, L. Ingano, W. A. Flavahan, D. K. V. Kumar, C. M. Fraser, C. S. Faherty, M. B. Sztein, M. Fiorentino, A. Fasano
 Journal: EBioMedicine
 Year: 2018
@@ -35,6 +35,18 @@ Overrepresented sequences: Warning; overrepresented sequences detected
 Quality warning: Yes; overrepresented sequence, GC content, and sequence duplication levels failed
 
 ## Screenshots
+<img width="2360" height="1419" alt="IMG_1950" src="https://github.com/user-attachments/assets/bbd6f157-854a-4dbd-a335-5b7559b2652d" />
+Fig.1 Basic Statistics. The dataset contains 24,357,703 sequences, totaling about 1.2 Gbp, with a read length of 51 bp and an average GC content of 52 percent. No sequences were flagged as poor quality. 
+<img width="810" height="612" alt="att 3glFU6btsmAasxl5Q6HX8LK8UTycBXdmFBgffCJFv7w" src="https://github.com/user-attachments/assets/c123cbd6-5f7f-4fbd-bda2-1d996a5d9d3a" />
+Fig.2 The reads show high and consistent quality, mostly around Q38-40, with all positions remaining in the green zone. 
+<img width="806" height="594" alt="att 7RB-lMCmk6plWqVS8Y1rnslDk-IT04MmCTK8wRQOn6M" src="https://github.com/user-attachments/assets/92040061-e3bf-42dc-954e-d7be636a8603" />
+Fig.3 The GC content distribution is irregular and differs from the theoretical distribution, with peaks around 40-50 percent and another around 80-85 percent. This explains the failed QC result and may indicate sequence or sample composition bias. 
+
+<img width="801" height="597" alt="att 0NpwdTp_h2BfYiXUKUZUdDpI1x8UM5q0Oj2osoW-QiE" src="https://github.com/user-attachments/assets/4f968e46-86fc-4813-a1ad-6eda83a2e89a" />
+Fig.4 Cumulative percentage of sequencing adapter contamination across base pair positions in the reads. The green checkmark and flat baseline at 0 percent indicate that the reads are clean and completlely free of common adapter contamination. 
+
+<img width="1566" height="536" alt="att EzkwaeS3p-zkzsVbJDF6CxYZeKlsX01Qw9Fp6P7gcow" src="https://github.com/user-attachments/assets/8b8c277d-66e6-4ba3-bd2e-d82b0f0f637a" />
+Fig. 5 Sequence reads occur far more frequently than expected. The orange warning icon indicates the presence of highly repetitive sequences in the dataset, which may represent biological signal, contamination, or PCR over-duplication
 
 
 ## Interpretation Questions
